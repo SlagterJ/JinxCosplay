@@ -749,7 +749,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MCU_Module:Arduino_Nano_Every"
+		(symbol "MCU_Module:Arduino_Nano_v2.x"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -762,7 +762,7 @@
 					(justify left bottom)
 				)
 			)
-			(property "Value" "Arduino_Nano_Every"
+			(property "Value" "Arduino_Nano_v2.x"
 				(at 5.08 -24.13 0)
 				(effects
 					(font
@@ -781,7 +781,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://content.arduino.cc/assets/NANOEveryV3.0_sch.pdf"
+			(property "Datasheet" "https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -790,7 +790,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Arduino Nano Every"
+			(property "Description" "Arduino Nano v2.x"
 				(at 0 0 0)
 				(effects
 					(font
@@ -799,7 +799,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Arduino nano microcontroller module USB UPDI AATMega4809 AVR"
+			(property "ki_keywords" "Arduino nano microcontroller module USB"
 				(at 0 0 0)
 				(effects
 					(font
@@ -817,7 +817,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Arduino_Nano_Every_0_1"
+			(symbol "Arduino_Nano_v2.x_0_1"
 				(rectangle
 					(start -10.16 22.86)
 					(end 10.16 -22.86)
@@ -830,29 +830,11 @@
 					)
 				)
 			)
-			(symbol "Arduino_Nano_Every_1_1"
+			(symbol "Arduino_Nano_v2.x_1_1"
 				(pin bidirectional line
-					(at -12.7 20.32 0)
+					(at -12.7 15.24 0)
 					(length 2.54)
-					(name "TX1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 17.78 0)
-					(length 2.54)
-					(name "RX1"
+					(name "D0/RX"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -870,6 +852,24 @@
 				(pin bidirectional line
 					(at -12.7 12.7 0)
 					(length 2.54)
+					(name "D1/TX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 10.16 0)
+					(length 2.54)
 					(name "D2"
 						(effects
 							(font
@@ -886,7 +886,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -12.7 10.16 0)
+					(at -12.7 7.62 0)
 					(length 2.54)
 					(name "D3"
 						(effects
@@ -904,7 +904,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -12.7 7.62 0)
+					(at -12.7 5.08 0)
 					(length 2.54)
 					(name "D4"
 						(effects
@@ -922,7 +922,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -12.7 5.08 0)
+					(at -12.7 2.54 0)
 					(length 2.54)
 					(name "D5"
 						(effects
@@ -940,7 +940,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -12.7 2.54 0)
+					(at -12.7 0 0)
 					(length 2.54)
 					(name "D6"
 						(effects
@@ -958,7 +958,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -12.7 0 0)
+					(at -12.7 -2.54 0)
 					(length 2.54)
 					(name "D7"
 						(effects
@@ -976,7 +976,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -12.7 -2.54 0)
+					(at -12.7 -5.08 0)
 					(length 2.54)
 					(name "D8"
 						(effects
@@ -994,7 +994,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -12.7 -5.08 0)
+					(at -12.7 -7.62 0)
 					(length 2.54)
 					(name "D9"
 						(effects
@@ -1012,7 +1012,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at -12.7 -7.62 0)
+					(at -12.7 -10.16 0)
 					(length 2.54)
 					(name "D10"
 						(effects
@@ -1032,7 +1032,7 @@
 				(pin bidirectional line
 					(at -12.7 -12.7 0)
 					(length 2.54)
-					(name "MOSI"
+					(name "D11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1050,7 +1050,7 @@
 				(pin bidirectional line
 					(at -12.7 -15.24 0)
 					(length 2.54)
-					(name "MISO"
+					(name "D12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1068,7 +1068,7 @@
 				(pin bidirectional line
 					(at -12.7 -17.78 0)
 					(length 2.54)
-					(name "SCK"
+					(name "D13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1094,25 +1094,6 @@
 						)
 					)
 					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -25.4 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1156,6 +1137,24 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 2.54 -25.4 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_out line
 					(at 5.08 25.4 270)
 					(length 2.54)
@@ -1184,7 +1183,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1202,7 +1201,7 @@
 							)
 						)
 					)
-					(number "28"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1303,7 +1302,7 @@
 				(pin bidirectional line
 					(at 12.7 -10.16 180)
 					(length 2.54)
-					(name "SDA/A4"
+					(name "A4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1321,7 +1320,7 @@
 				(pin bidirectional line
 					(at 12.7 -12.7 180)
 					(length 2.54)
-					(name "SCL/A5"
+					(name "A5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1568,6 +1567,12 @@
 		(uuid "063cfbda-8687-4605-a80f-ec78602b80ae")
 	)
 	(junction
+		(at 153.67 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8da7f4f1-0425-4e56-a967-534dcdd9fd04")
+	)
+	(junction
 		(at 158.75 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1595,13 +1600,23 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 85.09) (xy 114.3 92.71)
+			(xy 114.3 87.63) (xy 114.3 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3ffbfc30-d26d-4d90-aadd-8c5888fa67f2")
+	)
+	(wire
+		(pts
+			(xy 153.67 120.65) (xy 156.21 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43c00498-3a42-4423-be6a-e8284e9b5786")
 	)
 	(wire
 		(pts
@@ -1675,7 +1690,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 85.09) (xy 114.3 85.09)
+			(xy 129.54 87.63) (xy 114.3 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1745,7 +1760,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 85.09) (xy 140.97 85.09)
+			(xy 137.16 87.63) (xy 140.97 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1901,7 +1916,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 133.35 85.09 90)
+		(at 133.35 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1910,14 +1925,6 @@
 		(fields_autoplaced yes)
 		(uuid "5cefdb43-1287-4d86-b4e5-cc1b20944fc0")
 		(property "Reference" "R1"
-			(at 133.35 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330Ω"
 			(at 133.35 81.28 90)
 			(effects
 				(font
@@ -1925,8 +1932,16 @@
 				)
 			)
 		)
+		(property "Value" "330Ω"
+			(at 133.35 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" ""
-			(at 133.604 84.074 90)
+			(at 133.604 86.614 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1935,7 +1950,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 85.09 0)
+			(at 133.35 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1944,7 +1959,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 133.35 85.09 0)
+			(at 133.35 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2036,6 +2051,161 @@
 		)
 	)
 	(symbol
+		(lib_id "MCU_Module:Arduino_Nano_v2.x")
+		(at 153.67 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76ef8d5d-f576-4bab-a30e-4c37e376128f")
+		(property "Reference" "A1"
+			(at 158.3533 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Arduino Nano RP2040 Connect"
+			(at 158.3533 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Module:Arduino_Nano"
+			(at 153.67 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arduino.cc/en/uploads/Main/ArduinoNanoManual23.pdf"
+			(at 153.67 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Arduino Nano v2.x"
+			(at 153.67 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "a70650d1-3f56-43f5-822f-adecd392c24e")
+		)
+		(pin "9"
+			(uuid "5939412e-6084-468c-8eb3-6b483ba4edac")
+		)
+		(pin "8"
+			(uuid "c1013c35-089e-42bf-ac19-f1ed994238c8")
+		)
+		(pin "5"
+			(uuid "5cba9689-44ef-47d9-a6b5-36dad30e617f")
+		)
+		(pin "6"
+			(uuid "bb07197b-0716-4422-bf26-df388b2bbb4d")
+		)
+		(pin "12"
+			(uuid "c4c7f4fa-e1da-48d9-8058-67c38d95e60e")
+		)
+		(pin "7"
+			(uuid "00e0dd09-bdeb-4f02-8289-5d32ea589c72")
+		)
+		(pin "10"
+			(uuid "111d3dc8-4b6f-4899-a7d5-f5ebf3c19c6b")
+		)
+		(pin "23"
+			(uuid "9ddb34e6-265f-45b7-845e-13d24870ed0e")
+		)
+		(pin "18"
+			(uuid "dbbd53b4-fcc6-4e06-a86d-2b38b9e175d3")
+		)
+		(pin "15"
+			(uuid "78d722fb-f9d0-47d2-a728-a49723b47d2a")
+		)
+		(pin "2"
+			(uuid "506e45be-e2dd-47b5-9966-9b6d09356fe3")
+		)
+		(pin "1"
+			(uuid "01857275-778f-45f6-a2df-277f433d1d85")
+		)
+		(pin "11"
+			(uuid "0a498d4b-4b7f-4cf6-a16a-0e49e73caca4")
+		)
+		(pin "30"
+			(uuid "97a2d2f3-ac58-43b0-9946-6aa5b698519e")
+		)
+		(pin "4"
+			(uuid "39c558af-71c3-41b4-bb6d-cf56b4b8e1c7")
+		)
+		(pin "3"
+			(uuid "e444bb97-f29c-4498-9e41-460b91fbe8ed")
+		)
+		(pin "21"
+			(uuid "f903c75f-c0ba-499e-aa9b-ee9aa48282f6")
+		)
+		(pin "16"
+			(uuid "b0bcdee7-4ace-4859-ab23-868423685eab")
+		)
+		(pin "28"
+			(uuid "0f352ec7-55a5-44e9-8a22-89cd8498f6b2")
+		)
+		(pin "14"
+			(uuid "0f0dd4d0-f49e-4da7-b617-73f08e1e9bd2")
+		)
+		(pin "29"
+			(uuid "3c6f5518-33c6-453f-adaa-f6dd29109aad")
+		)
+		(pin "27"
+			(uuid "74071195-feed-4f99-a394-861105d112eb")
+		)
+		(pin "19"
+			(uuid "ccab6479-da6b-43af-bc86-4a85f3775658")
+		)
+		(pin "20"
+			(uuid "f70876d9-54f9-48ba-bb89-3bc1114cfc5b")
+		)
+		(pin "17"
+			(uuid "643629ec-46fe-4811-b334-f18206955dc4")
+		)
+		(pin "22"
+			(uuid "baea0cb3-55ed-40b2-93ff-7d8d442dc32b")
+		)
+		(pin "24"
+			(uuid "83a811ef-8158-491a-884b-a4775f388e32")
+		)
+		(pin "25"
+			(uuid "e5ae4b98-5602-4589-85b2-0959fdd362ba")
+		)
+		(pin "26"
+			(uuid "f9343e5f-318c-4ce9-abf4-e8a7b10ed2f0")
+		)
+		(instances
+			(project ""
+				(path "/33db064c-d5ae-416f-86c1-c095f962d498"
+					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 175.26 106.68 180)
 		(unit 1)
@@ -2100,161 +2270,6 @@
 			(project ""
 				(path "/33db064c-d5ae-416f-86c1-c095f962d498"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MCU_Module:Arduino_Nano_Every")
-		(at 153.67 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c79bd248-c36f-461d-9bbb-f9289d124887")
-		(property "Reference" "A1"
-			(at 155.8133 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Arduino Nano"
-			(at 155.8133 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Module:Arduino_Nano"
-			(at 153.67 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://content.arduino.cc/assets/NANOEveryV3.0_sch.pdf"
-			(at 153.67 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Arduino Nano Every"
-			(at 153.67 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "e3528c58-db9b-45a4-8dc0-3b776f1d7c20")
-		)
-		(pin "4"
-			(uuid "13ef79d5-e131-43b3-add8-422f885f886f")
-		)
-		(pin "5"
-			(uuid "e18e0f56-19f2-40d7-94be-020454c7e73b")
-		)
-		(pin "19"
-			(uuid "3f2c71d8-368a-4ad0-b6a5-58681c8a6d4d")
-		)
-		(pin "28"
-			(uuid "9bbf8888-1f6b-4bf0-ab98-3c39e08c1bd7")
-		)
-		(pin "22"
-			(uuid "8023dd88-a272-46f7-9c73-a084b481eb92")
-		)
-		(pin "24"
-			(uuid "20948cf2-8bdc-4c80-81c0-a0f7583e48d9")
-		)
-		(pin "26"
-			(uuid "813cd65e-19cf-4cd0-bcfc-e27251d0db98")
-		)
-		(pin "13"
-			(uuid "039ec791-731a-47dd-bc04-afb7bab79fa9")
-		)
-		(pin "1"
-			(uuid "4a4c5f00-41f5-41ec-8a75-808f6dc8d2cf")
-		)
-		(pin "9"
-			(uuid "619167ee-5858-4d72-9508-2eaf8f5453f8")
-		)
-		(pin "14"
-			(uuid "e6f12faf-d244-426b-a953-4be2a845d26e")
-		)
-		(pin "29"
-			(uuid "9a758e46-a728-47e4-9be5-54bba6c91703")
-		)
-		(pin "2"
-			(uuid "8c4e38aa-a00c-4897-b6e2-5b1b47b1688e")
-		)
-		(pin "8"
-			(uuid "c1e219f2-2af5-4b8f-a39c-ac67fb320957")
-		)
-		(pin "12"
-			(uuid "06242e97-5755-4663-bb7a-4478519cf87c")
-		)
-		(pin "15"
-			(uuid "b59b691b-cc98-40d4-b666-06b3d55aaf8c")
-		)
-		(pin "17"
-			(uuid "cf161996-b23c-4fdc-8503-a266b40c74d2")
-		)
-		(pin "27"
-			(uuid "e245609e-ac9b-4f25-8d0c-21494804f1d7")
-		)
-		(pin "7"
-			(uuid "50f2f279-c6fb-44b4-a3a1-32601308f503")
-		)
-		(pin "6"
-			(uuid "acca33ac-cbbe-4ba2-b990-ec0c59af08c8")
-		)
-		(pin "11"
-			(uuid "940cd5b5-8569-44fe-8947-8f6b2b2eac2e")
-		)
-		(pin "16"
-			(uuid "a3dae39a-31fd-431e-81a1-4b8f4229d96f")
-		)
-		(pin "30"
-			(uuid "5ac8b127-fe93-4420-8ce4-6dd6a3c0a733")
-		)
-		(pin "3"
-			(uuid "851c9687-355d-48f2-8a8a-a74b618e904d")
-		)
-		(pin "18"
-			(uuid "9c3ffe59-aeef-470e-a4db-4357f8a477fe")
-		)
-		(pin "20"
-			(uuid "ef884178-31dd-41ee-b59e-9701decb1718")
-		)
-		(pin "21"
-			(uuid "da92211e-0161-4894-b98a-edf8e962ca6f")
-		)
-		(pin "23"
-			(uuid "bde483a1-81a8-4306-9ae8-2de9c9e7aa27")
-		)
-		(pin "25"
-			(uuid "9d11397a-3fb0-4f52-ad1d-3dffe10350c5")
-		)
-		(instances
-			(project ""
-				(path "/33db064c-d5ae-416f-86c1-c095f962d498"
-					(reference "A1")
 					(unit 1)
 				)
 			)
