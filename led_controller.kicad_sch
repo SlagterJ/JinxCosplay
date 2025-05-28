@@ -2219,7 +2219,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 107.95) (xy 191.77 144.78)
+			(xy 191.77 107.95) (xy 191.77 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2369,16 +2369,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 96.52) (xy 246.38 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da07a4a2-abe9-4d4c-82c1-c5e540da56ce")
-	)
-	(wire
-		(pts
 			(xy 157.48 68.58) (xy 157.48 107.95)
 		)
 		(stroke
@@ -2429,7 +2419,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 139.7) (xy 179.07 144.78)
+			(xy 179.07 139.7) (xy 179.07 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2981,7 +2971,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Motor_DC")
-		(at 184.15 144.78 90)
+		(at 184.15 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2989,14 +2979,6 @@
 		(dnp no)
 		(uuid "672b44cb-026e-4c21-af91-811b3de0d9cb")
 		(property "Reference" "M1"
-			(at 186.69 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Motor_DC"
 			(at 186.69 139.7 90)
 			(effects
 				(font
@@ -3004,8 +2986,16 @@
 				)
 			)
 		)
+		(property "Value" "50 ≤ rpm ≤ 2000"
+			(at 186.69 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" ""
-			(at 186.436 144.78 0)
+			(at 186.436 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3014,7 +3004,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.436 144.78 0)
+			(at 186.436 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3023,7 +3013,7 @@
 			)
 		)
 		(property "Description" "DC Motor"
-			(at 184.15 144.78 0)
+			(at 184.15 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3991,7 +3981,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Potentiometer"
+		(property "Value" "≤ 1KΩ"
 			(at 176.53 137.1599 0)
 			(effects
 				(font
