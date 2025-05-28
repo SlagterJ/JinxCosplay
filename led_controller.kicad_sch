@@ -1962,10 +1962,22 @@
 		)
 	)
 	(junction
+		(at 179.07 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00b51c1b-85ef-4a43-8dc8-5e3ad9f9bace")
+	)
+	(junction
 		(at 227.33 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "186d4ec8-28e6-432c-84f7-320ebd15648b")
+	)
+	(junction
+		(at 78.74 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1c06660d-9d4c-4e06-a4e4-f855dd17f62a")
 	)
 	(junction
 		(at 204.47 93.98)
@@ -1974,22 +1986,10 @@
 		(uuid "1db8728d-fc39-42f7-85d2-f64233ae7b0f")
 	)
 	(junction
-		(at 142.24 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24fdd5a4-f1a8-4bc3-8cf2-05773017eae3")
-	)
-	(junction
 		(at 191.77 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2b8e2b7d-73d1-4608-a34e-ec3c0a81de7a")
-	)
-	(junction
-		(at 179.07 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f2e9cf4-6894-44bc-a4df-b25ba912b54c")
 	)
 	(junction
 		(at 78.74 119.38)
@@ -2004,22 +2004,34 @@
 		(uuid "40023671-5975-4ba8-8340-f652d78d02fe")
 	)
 	(junction
+		(at 260.35 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f8338cd-3306-4604-92f3-52e359d0a126")
+	)
+	(junction
 		(at 125.73 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69915680-9baf-4acc-8319-c8c12c91dd03")
 	)
 	(junction
-		(at 245.11 107.95)
+		(at 142.24 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6befdc5d-61e5-4256-bcc3-85a651eab665")
+		(uuid "72af0b48-dd3a-46dc-923d-35768b1954e4")
 	)
 	(junction
 		(at 93.98 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd1a0ac9-58a0-44aa-b188-f6fbfb53a350")
+	)
+	(junction
+		(at 110.49 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c408c7e0-e40c-4720-9bdc-f040b5543ef3")
 	)
 	(junction
 		(at 110.49 119.38)
@@ -2071,7 +2083,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 99.06) (xy 78.74 119.38)
+			(xy 78.74 88.9) (xy 78.74 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2088,6 +2100,26 @@
 			(type default)
 		)
 		(uuid "151aefd5-3555-4096-b766-00c8dd7e4814")
+	)
+	(wire
+		(pts
+			(xy 248.92 107.95) (xy 247.65 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "160adefe-5d35-4006-867d-698c62ffbd29")
+	)
+	(wire
+		(pts
+			(xy 166.37 119.38) (xy 179.07 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16e138bc-3002-40c7-9f4a-3ca9d511f749")
 	)
 	(wire
 		(pts
@@ -2108,6 +2140,16 @@
 			(type default)
 		)
 		(uuid "18039ea6-9818-4b63-9c75-587eeef424c8")
+	)
+	(wire
+		(pts
+			(xy 260.35 119.38) (xy 260.35 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d5955aa-9ec0-4550-9404-ae09a3173a74")
 	)
 	(wire
 		(pts
@@ -2158,26 +2200,6 @@
 			(type default)
 		)
 		(uuid "2a84e242-716f-455b-942b-23ebfe1e7aee")
-	)
-	(wire
-		(pts
-			(xy 46.99 87.63) (xy 46.99 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b7db769-fc1f-4dda-90b0-185a09b63727")
-	)
-	(wire
-		(pts
-			(xy 46.99 97.79) (xy 46.99 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f149fcc-32c1-4bf8-904b-b8ba206437c8")
 	)
 	(wire
 		(pts
@@ -2241,6 +2263,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 86.36) (xy 46.99 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4523694f-4142-4b3b-88b3-ade6c1cd5584")
+	)
+	(wire
+		(pts
 			(xy 54.61 49.53) (xy 54.61 41.91)
 		)
 		(stroke
@@ -2258,16 +2290,6 @@
 			(type default)
 		)
 		(uuid "4b809878-1bbe-4ef3-91c8-d2bf7b09fede")
-	)
-	(wire
-		(pts
-			(xy 243.84 107.95) (xy 245.11 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52c639c6-061b-4f53-a5f5-160a8d4a5171")
 	)
 	(wire
 		(pts
@@ -2301,13 +2323,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 119.38) (xy 179.07 119.38)
+			(xy 78.74 90.17) (xy 78.74 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6310828e-3119-41c1-ab61-f3596af04a42")
+		(uuid "5ffe445a-5526-45d0-bc01-c23512bdaa1a")
 	)
 	(wire
 		(pts
@@ -2331,7 +2353,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 107.95) (xy 260.35 107.95)
+			(xy 256.54 107.95) (xy 260.35 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2348,6 +2370,16 @@
 			(type default)
 		)
 		(uuid "6ce0415f-04cb-4b4f-a303-0dc73f629a75")
+	)
+	(wire
+		(pts
+			(xy 237.49 107.95) (xy 236.22 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d6b94d0-7ed4-4668-aab3-ced08209b473")
 	)
 	(wire
 		(pts
@@ -2388,16 +2420,6 @@
 			(type default)
 		)
 		(uuid "7ca9ea33-286c-4fa0-982c-e8bcede59b0a")
-	)
-	(wire
-		(pts
-			(xy 78.74 88.9) (xy 78.74 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d68f543-7538-460f-8f20-3da39661c99a")
 	)
 	(wire
 		(pts
@@ -2481,16 +2503,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 88.9) (xy 142.24 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91229e43-06c0-4a61-ade4-6663a8104530")
-	)
-	(wire
-		(pts
 			(xy 229.87 30.48) (xy 229.87 33.02)
 		)
 		(stroke
@@ -2498,16 +2510,6 @@
 			(type default)
 		)
 		(uuid "958e4018-e728-4657-aed4-d893e00c3bdb")
-	)
-	(wire
-		(pts
-			(xy 110.49 88.9) (xy 110.49 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b4a13e8-1dc2-424d-8574-1007eb7db92d")
 	)
 	(wire
 		(pts
@@ -2561,7 +2563,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 99.06) (xy 110.49 119.38)
+			(xy 110.49 88.9) (xy 110.49 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2571,13 +2573,33 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 99.06) (xy 142.24 119.38)
+			(xy 110.49 90.17) (xy 110.49 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b77a26bc-cf39-452d-a7ed-7d192be4d7fb")
+	)
+	(wire
+		(pts
+			(xy 142.24 90.17) (xy 142.24 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ba324dc8-9c2e-46ad-8749-e5dfe0737a66")
+	)
+	(wire
+		(pts
+			(xy 142.24 119.38) (xy 156.21 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb9c9263-e870-47d7-a25e-754f8d820573")
 	)
 	(wire
 		(pts
@@ -2591,7 +2613,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 119.38) (xy 245.11 119.38)
+			(xy 204.47 119.38) (xy 260.35 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2681,16 +2703,6 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 107.95) (xy 245.11 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc4f4084-d92c-4521-81a4-fca77e9c808a")
-	)
-	(wire
-		(pts
 			(xy 179.07 119.38) (xy 204.47 119.38)
 		)
 		(stroke
@@ -2764,76 +2776,6 @@
 			(project "led_controller"
 				(path "/33db064c-d5ae-416f-86c1-c095f962d498"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 110.49 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08dcb8a8-bdac-43e9-81cd-8bf3a05d4000")
-		(property "Reference" "SW1"
-			(at 107.95 95.2501 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Toggle switch"
-			(at 107.95 92.7101 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 110.49 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79e7d6a0-e6d4-450b-9b4c-8282ac97c35e")
-		)
-		(pin "2"
-			(uuid "40f5cc40-98bf-4cdd-be6c-b9e70e65f4c4")
-		)
-		(instances
-			(project "led_controller"
-				(path "/33db064c-d5ae-416f-86c1-c095f962d498"
-					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -3050,76 +2992,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 46.99 92.71 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49d3e352-8458-4bf8-b361-8663bf9c26a1")
-		(property "Reference" "SW3"
-			(at 44.45 93.9801 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Toggle switch"
-			(at 44.45 91.4401 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 46.99 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 46.99 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 46.99 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c8da3627-9118-46e3-b0a6-474b286ee52f")
-		)
-		(pin "2"
-			(uuid "03055e7d-1c0d-4b41-b288-55eaa2458a80")
-		)
-		(instances
-			(project "led_controller"
-				(path "/33db064c-d5ae-416f-86c1-c095f962d498"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:WS2812B")
 		(at 86.36 68.58 270)
 		(unit 1)
@@ -3266,76 +3138,6 @@
 			(project "led_controller"
 				(path "/33db064c-d5ae-416f-86c1-c095f962d498"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 142.24 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6365dff5-48fb-4fe9-9037-03d825f089ef")
-		(property "Reference" "SW4"
-			(at 139.7 95.2501 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Toggle switch"
-			(at 139.7 92.7101 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 142.24 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0c1ebb4f-211d-4d51-a393-39d38be2ac60")
-		)
-		(pin "2"
-			(uuid "a88a314e-c1c3-4dd0-a023-033ade3381d4")
-		)
-		(instances
-			(project "led_controller"
-				(path "/33db064c-d5ae-416f-86c1-c095f962d498"
-					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -3704,78 +3506,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 78.74 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f8c4774-20c7-4301-bf11-a7f0a598ac1f")
-		(property "Reference" "SW2"
-			(at 76.2 95.2501 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Toggle switch"
-			(at 76.2 92.7101 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 78.74 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 78.74 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 78.74 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe8599b9-cf07-46fb-bfa7-28ba8c1dfd32")
-		)
-		(pin "2"
-			(uuid "ffeb17b6-98d9-4129-a47e-9a57706e6bae")
-		)
-		(instances
-			(project "led_controller"
-				(path "/33db064c-d5ae-416f-86c1-c095f962d498"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
-		(at 240.03 107.95 270)
+		(at 252.73 107.95 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3784,7 +3516,7 @@
 		(fields_autoplaced yes)
 		(uuid "a28784ad-5259-4a4a-9d8a-b1766d2a76a5")
 		(property "Reference" "C1"
-			(at 240.03 100.33 90)
+			(at 252.73 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3792,7 +3524,7 @@
 			)
 		)
 		(property "Value" "1000µF"
-			(at 240.03 102.87 90)
+			(at 252.73 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3800,7 +3532,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 108.9152 0)
+			(at 248.92 108.9152 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3809,7 +3541,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 107.95 0)
+			(at 252.73 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3818,7 +3550,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 240.03 107.95 0)
+			(at 252.73 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3976,6 +3708,74 @@
 			(project ""
 				(path "/33db064c-d5ae-416f-86c1-c095f962d498"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 161.29 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abe13f9b-ca17-41d6-b09c-ffacca1cd3dd")
+		(property "Reference" "SW7"
+			(at 161.29 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Toggle switch"
+			(at 161.29 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 161.29 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3be33a15-dff1-4616-8834-239d90c28640")
+		)
+		(pin "2"
+			(uuid "9668c5ba-d8bf-4abe-9a3b-af5134c6d90a")
+		)
+		(instances
+			(project "led_controller"
+				(path "/33db064c-d5ae-416f-86c1-c095f962d498"
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -4479,6 +4279,74 @@
 			(project "led_controller"
 				(path "/33db064c-d5ae-416f-86c1-c095f962d498"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 242.57 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f885d636-e899-4ea8-b3ef-07104a6c1624")
+		(property "Reference" "SW1"
+			(at 242.57 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Toggle switch"
+			(at 242.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 242.57 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "580226b8-6d76-440c-a479-ec1fcb3bd873")
+		)
+		(pin "2"
+			(uuid "f187f215-41ca-4527-bf1e-456ce45d8853")
+		)
+		(instances
+			(project "led_controller"
+				(path "/33db064c-d5ae-416f-86c1-c095f962d498"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
