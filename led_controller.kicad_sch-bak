@@ -321,7 +321,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_US"
+		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
 			)
@@ -332,15 +332,15 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "R"
-				(at 2.54 0 90)
+				(at 2.032 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
+			(property "Value" "R"
+				(at 0 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -348,7 +348,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 1.016 -0.254 90)
+				(at -1.778 0 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -365,7 +365,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Resistor, US symbol"
+			(property "Description" "Resistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -392,61 +392,12 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_US_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
 					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -454,7 +405,7 @@
 					)
 				)
 			)
-			(symbol "R_US_1_1"
+			(symbol "R_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -1512,148 +1463,238 @@
 		)
 	)
 	(junction
-		(at 128.27 124.46)
+		(at 237.49 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2859dce2-f017-4c57-ab13-bc0c83161d57")
+		(uuid "186d4ec8-28e6-432c-84f7-320ebd15648b")
 	)
 	(junction
-		(at 160.02 124.46)
+		(at 152.4 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2d25db6e-9e74-44f0-a51b-d4344ef3cca1")
+		(uuid "24fdd5a4-f1a8-4bc3-8cf2-05773017eae3")
 	)
 	(junction
-		(at 234.95 124.46)
+		(at 88.9 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "51ba651c-99c7-4633-9e5c-32217b5b2aa6")
+		(uuid "3efc7265-fd4c-4b49-b715-ce885f2c0cb2")
 	)
 	(junction
-		(at 240.03 57.15)
+		(at 167.64 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "6db62338-00cb-4a3d-89d2-847c1a349e61")
+		(uuid "40023671-5975-4ba8-8340-f652d78d02fe")
 	)
 	(junction
-		(at 234.95 120.65)
+		(at 135.89 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8da7f4f1-0425-4e56-a967-534dcdd9fd04")
+		(uuid "69915680-9baf-4acc-8319-c8c12c91dd03")
 	)
 	(junction
-		(at 160.02 57.15)
+		(at 255.27 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b8dc21ce-8c2c-46c5-98c5-569185df23c4")
+		(uuid "6befdc5d-61e5-4256-bcc3-85a651eab665")
 	)
 	(junction
-		(at 96.52 124.46)
+		(at 104.14 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "db16f768-f166-4a25-9365-87482a8d1e18")
+		(uuid "bd1a0ac9-58a0-44aa-b188-f6fbfb53a350")
 	)
 	(junction
-		(at 128.27 57.15)
+		(at 120.65 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e602965e-4a4b-476e-aa1e-ce535481996b")
+		(uuid "e8ffe1d6-09d6-4219-8043-25e2c9ac0d39")
 	)
 	(junction
-		(at 96.52 57.15)
+		(at 237.49 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e67b54a9-a1e8-4204-a88b-1d66c048dd78")
+		(uuid "fb703eda-7998-456e-a236-0212007abccf")
 	)
 	(wire
 		(pts
-			(xy 160.02 57.15) (xy 240.03 57.15)
+			(xy 190.5 73.66) (xy 190.5 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0aeaece7-29f3-4533-a460-44171f656186")
+		(uuid "013d0a63-2e74-4a03-9a80-6f3608a18aac")
 	)
 	(wire
 		(pts
-			(xy 234.95 120.65) (xy 234.95 124.46)
+			(xy 104.14 95.25) (xy 104.14 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0dc9aae0-b4bc-456a-84d2-35a4536b0d80")
+		(uuid "0471d99f-6520-4372-975f-6467baf66281")
 	)
 	(wire
 		(pts
-			(xy 256.54 124.46) (xy 256.54 121.92)
+			(xy 193.04 87.63) (xy 222.25 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1155fa3d-658e-41a8-b6ad-ce37d2abd658")
+		(uuid "06a9e2cc-a3a8-4943-9202-99d69b64ee22")
 	)
 	(wire
 		(pts
-			(xy 96.52 67.31) (xy 96.52 68.58)
+			(xy 88.9 125.73) (xy 88.9 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "21090a4d-35ec-4a7b-8098-12620cc1e979")
+		(uuid "06d1c071-586c-469f-8f61-2117a4e515b4")
 	)
 	(wire
 		(pts
-			(xy 64.77 67.31) (xy 64.77 68.58)
+			(xy 167.64 134.62) (xy 237.49 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "224a0c93-2d20-4e64-bca6-c7369a30d723")
+		(uuid "11f49282-3fb2-4cd3-ab4c-adfcbbad0278")
 	)
 	(wire
 		(pts
-			(xy 160.02 67.31) (xy 160.02 68.58)
+			(xy 160.02 76.2) (xy 187.96 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "359bf704-fadf-405d-b3ec-d7fb94b822f1")
+		(uuid "151aefd5-3555-4096-b766-00c8dd7e4814")
 	)
 	(wire
 		(pts
-			(xy 96.52 92.71) (xy 96.52 124.46)
+			(xy 160.02 83.82) (xy 160.02 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a139d80-0671-4897-b1be-2d9020ee6196")
+		(uuid "16e33e9d-2bf4-431f-abe5-8b2c418be40f")
 	)
 	(wire
 		(pts
-			(xy 64.77 57.15) (xy 96.52 57.15)
+			(xy 72.39 134.62) (xy 104.14 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3bb9f153-b176-486d-8e95-3865cac75a09")
+		(uuid "205ca91d-4fe2-40b3-b38d-a383fec8455e")
 	)
 	(wire
 		(pts
-			(xy 128.27 124.46) (xy 96.52 124.46)
+			(xy 88.9 146.05) (xy 120.65 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "439a06a9-4429-4bd3-b393-a9a4e284734b")
+		(uuid "22b34dff-ecc6-4cfc-8f48-23d140de1c13")
+	)
+	(wire
+		(pts
+			(xy 104.14 134.62) (xy 135.89 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27f6bb8b-a2c8-4bfb-bd2b-afa7f0e8d3d2")
+	)
+	(wire
+		(pts
+			(xy 128.27 73.66) (xy 190.5 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "299e98d3-e533-4521-a476-5ebb974a4467")
+	)
+	(wire
+		(pts
+			(xy 57.15 95.25) (xy 57.15 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a84e242-716f-455b-942b-23ebfe1e7aee")
+	)
+	(wire
+		(pts
+			(xy 57.15 114.3) (xy 57.15 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b7db769-fc1f-4dda-90b0-185a09b63727")
+	)
+	(wire
+		(pts
+			(xy 57.15 124.46) (xy 57.15 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f149fcc-32c1-4bf8-904b-b8ba206437c8")
+	)
+	(wire
+		(pts
+			(xy 187.96 76.2) (xy 187.96 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a1b55aa-ab9c-4435-b8e2-a7df776bcd73")
+	)
+	(wire
+		(pts
+			(xy 135.89 134.62) (xy 167.64 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a4cb37e-4615-49f4-b15e-989b4612c5cc")
+	)
+	(wire
+		(pts
+			(xy 120.65 95.25) (xy 120.65 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc1e4d0-d6a9-4880-8625-8675975bfefa")
+	)
+	(wire
+		(pts
+			(xy 195.58 85.09) (xy 222.25 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fa33223-5ef4-4498-a283-383301e9f1b2")
 	)
 	(wire
 		(pts
@@ -1667,53 +1708,43 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 124.46) (xy 64.77 124.46)
+			(xy 64.77 76.2) (xy 64.77 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44138f52-7984-43dc-a99d-8434d89bbe94")
+		(uuid "4b6a0784-ac94-440a-ab0e-e8908ac8d6a5")
 	)
 	(wire
 		(pts
-			(xy 160.02 76.2) (xy 160.02 77.47)
+			(xy 187.96 92.71) (xy 222.25 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e23fdd2-4d4a-4032-acae-bdc15e5a7855")
+		(uuid "4b809878-1bbe-4ef3-91c8-d2bf7b09fede")
 	)
 	(wire
 		(pts
-			(xy 128.27 57.15) (xy 160.02 57.15)
+			(xy 254 134.62) (xy 255.27 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f4b9b22-ec09-47ae-8b92-38992de29681")
+		(uuid "52c639c6-061b-4f53-a5f5-160a8d4a5171")
 	)
 	(wire
 		(pts
-			(xy 212.09 85.09) (xy 212.09 87.63)
+			(xy 88.9 95.25) (xy 88.9 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "55b6d659-e8cb-4d3a-8413-e57287aa0a0c")
-	)
-	(wire
-		(pts
-			(xy 212.09 87.63) (xy 222.25 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b4fe73b-0b4b-4653-b7b2-dfb785894d20")
+		(uuid "5b95a650-4ac6-4ad7-b7a0-e657dd933851")
 	)
 	(wire
 		(pts
@@ -1727,77 +1758,37 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 85.09) (xy 120.65 85.09)
+			(xy 152.4 146.05) (xy 255.27 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6016e6d1-fa66-45c8-a535-d022436e3ee4")
+		(uuid "6310828e-3119-41c1-ab61-f3596af04a42")
 	)
 	(wire
 		(pts
-			(xy 167.64 85.09) (xy 186.69 85.09)
+			(xy 270.51 134.62) (xy 270.51 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "60fe48ff-bdbd-4bf3-9f5e-3ebb295831e8")
+		(uuid "67d9e167-4bdc-480e-b279-f76d4f1ea4c0")
 	)
 	(wire
 		(pts
-			(xy 72.39 85.09) (xy 88.9 85.09)
+			(xy 255.27 134.62) (xy 270.51 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63525576-5834-474f-a0d5-17fc68dc21b5")
+		(uuid "6aa74f0d-f96f-4e0f-b931-7a3a409f69ee")
 	)
 	(wire
 		(pts
-			(xy 135.89 85.09) (xy 152.4 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b609380-0fd3-4c5b-acf1-760686f81630")
-	)
-	(wire
-		(pts
-			(xy 96.52 57.15) (xy 128.27 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c70e6b1-ce0b-4974-b300-671d27c862bf")
-	)
-	(wire
-		(pts
-			(xy 160.02 124.46) (xy 128.27 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f4a382e-eeb9-43b7-991c-840fcd376834")
-	)
-	(wire
-		(pts
-			(xy 256.54 110.49) (xy 256.54 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70018476-679f-40f6-b7eb-9f5161f9b3fe")
-	)
-	(wire
-		(pts
-			(xy 240.03 57.15) (xy 256.54 57.15)
+			(xy 240.03 57.15) (xy 270.51 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1807,23 +1798,103 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 92.71) (xy 128.27 124.46)
+			(xy 96.52 71.12) (xy 193.04 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "827c7c15-c4f9-4bf8-8567-32d8d200d0bd")
+		(uuid "7ca9ea33-286c-4fa0-982c-e8bcede59b0a")
 	)
 	(wire
 		(pts
-			(xy 96.52 76.2) (xy 96.52 77.47)
+			(xy 88.9 115.57) (xy 88.9 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d68f543-7538-460f-8f20-3da39661c99a")
+	)
+	(wire
+		(pts
+			(xy 120.65 146.05) (xy 152.4 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82be7060-e142-4629-a60a-9b50bec96e4b")
+	)
+	(wire
+		(pts
+			(xy 193.04 71.12) (xy 193.04 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83588fdd-b84e-4345-8a24-24d9d5d318b6")
+	)
+	(wire
+		(pts
+			(xy 96.52 83.82) (xy 96.52 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "850d7294-30a6-404c-b4ce-90562c79244e")
+	)
+	(wire
+		(pts
+			(xy 238.76 134.62) (xy 237.49 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e06285-73a5-42f6-915e-d9a1f570363d")
+	)
+	(wire
+		(pts
+			(xy 152.4 95.25) (xy 152.4 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "866228f6-dedf-4e57-ace6-f02886d44552")
+	)
+	(wire
+		(pts
+			(xy 190.5 90.17) (xy 222.25 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c4f0ced-9b2d-40b1-8f9d-7bf46f88437e")
+	)
+	(wire
+		(pts
+			(xy 96.52 76.2) (xy 96.52 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf7fc30-4d8b-4d77-a746-eb3050f4c663")
+	)
+	(wire
+		(pts
+			(xy 152.4 115.57) (xy 152.4 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91229e43-06c0-4a61-ade4-6663a8104530")
 	)
 	(wire
 		(pts
@@ -1837,87 +1908,107 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 92.71) (xy 160.02 124.46)
+			(xy 120.65 115.57) (xy 120.65 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9802e272-eaef-476a-97cf-498c7308a175")
+		(uuid "9b4a13e8-1dc2-424d-8574-1007eb7db92d")
 	)
 	(wire
 		(pts
-			(xy 234.95 124.46) (xy 160.02 124.46)
+			(xy 135.89 95.25) (xy 135.89 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e9dff94-0e1d-455b-a996-3ff357a1c5c8")
+		(uuid "9e988c6a-6a60-4a70-a97d-565d718b78e2")
 	)
 	(wire
 		(pts
-			(xy 64.77 124.46) (xy 64.77 92.71)
+			(xy 128.27 76.2) (xy 128.27 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a2d27f3d-c498-48c5-b00a-c7f5f138a4f8")
+		(uuid "a5815ddd-368f-485c-9e62-8243a3dd5d9d")
 	)
 	(wire
 		(pts
-			(xy 256.54 57.15) (xy 256.54 102.87)
+			(xy 57.15 146.05) (xy 88.9 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a3205f24-cedc-4dbf-8ffd-9e029ba6d37d")
+		(uuid "a7433d16-a0ff-481f-940d-489dbf78522c")
 	)
 	(wire
 		(pts
-			(xy 234.95 124.46) (xy 256.54 124.46)
+			(xy 64.77 83.82) (xy 64.77 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0a2859e-0f7f-43c9-8680-15f33019f5f4")
+		(uuid "ad885754-5acf-4f02-bd30-03340b4ca54e")
 	)
 	(wire
 		(pts
-			(xy 64.77 76.2) (xy 64.77 77.47)
+			(xy 120.65 125.73) (xy 120.65 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "be754d2a-1a23-4062-85fa-0abf7279f0c9")
+		(uuid "b1cca6a4-0247-4269-91c7-6e6cc4e08d1e")
 	)
 	(wire
 		(pts
-			(xy 128.27 67.31) (xy 128.27 68.58)
+			(xy 152.4 125.73) (xy 152.4 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cbebcb99-4772-4198-a220-fd9abc37a0bf")
+		(uuid "ba324dc8-9c2e-46ad-8749-e5dfe0737a66")
 	)
 	(wire
 		(pts
-			(xy 194.31 85.09) (xy 212.09 85.09)
+			(xy 252.73 123.19) (xy 256.54 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e47941c2-cc4f-43e4-b2e6-09c312f7aa49")
+		(uuid "da07a4a2-abe9-4d4c-82c1-c5e540da56ce")
 	)
 	(wire
 		(pts
-			(xy 128.27 76.2) (xy 128.27 77.47)
+			(xy 167.64 95.25) (xy 167.64 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcf48e6b-a67a-4c5a-a5da-68642fd3c3e5")
+	)
+	(wire
+		(pts
+			(xy 237.49 120.65) (xy 237.49 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de1a7199-29c4-432c-bf55-bd8638085981")
+	)
+	(wire
+		(pts
+			(xy 128.27 83.82) (xy 128.27 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1925,18 +2016,58 @@
 		)
 		(uuid "ead86eb6-2dde-4868-8757-5d9a9cabd226")
 	)
+	(wire
+		(pts
+			(xy 195.58 68.58) (xy 195.58 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed60915c-284e-4688-bc0e-88e4a60e28b4")
+	)
+	(wire
+		(pts
+			(xy 64.77 68.58) (xy 195.58 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3f254bd-8d14-45be-b3f4-c16ef1755f47")
+	)
+	(wire
+		(pts
+			(xy 72.39 95.25) (xy 72.39 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5b01c08-c8ce-4c6a-a326-32df789f3836")
+	)
+	(wire
+		(pts
+			(xy 255.27 134.62) (xy 255.27 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc4f4084-d92c-4521-81a4-fca77e9c808a")
+	)
 	(symbol
-		(lib_id "Device:C")
-		(at 160.02 72.39 0)
+		(lib_id "Device:R")
+		(at 64.77 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "40ffe8c1-a298-495f-820f-d49517c8f526")
-		(property "Reference" "C6"
-			(at 163.83 71.1199 0)
+		(uuid "0450838f-eb14-458a-a43a-c7719949d48b")
+		(property "Reference" "R4"
+			(at 67.31 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1944,8 +2075,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0,1µF"
-			(at 163.83 73.6599 0)
+		(property "Value" "330Ω"
+			(at 67.31 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1954,7 +2085,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.9852 76.2 0)
+			(at 62.992 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1963,7 +2094,147 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 72.39 0)
+			(at 64.77 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 64.77 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea58e304-19a8-4498-b110-bdbc309f6be6")
+		)
+		(pin "2"
+			(uuid "161fbe0d-f73a-4061-8a41-32dcef64d740")
+		)
+		(instances
+			(project "led_controller"
+				(path "/33db064c-d5ae-416f-86c1-c095f962d498"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 120.65 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08dcb8a8-bdac-43e9-81cd-8bf3a05d4000")
+		(property "Reference" "SW1"
+			(at 118.11 121.9201 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Toggle switch"
+			(at 118.11 119.3801 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 120.65 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79e7d6a0-e6d4-450b-9b4c-8282ac97c35e")
+		)
+		(pin "2"
+			(uuid "40f5cc40-98bf-4cdd-be6c-b9e70e65f4c4")
+		)
+		(instances
+			(project "led_controller"
+				(path "/33db064c-d5ae-416f-86c1-c095f962d498"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 57.15 109.22 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b515d02-a227-48c7-afd8-133853b70cd1")
+		(property "Reference" "C5"
+			(at 53.34 110.4901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0,1µF"
+			(at 53.34 107.9501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 56.1848 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1972,7 +2243,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 160.02 72.39 0)
+			(at 57.15 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1981,15 +2252,85 @@
 			)
 		)
 		(pin "2"
-			(uuid "5535bb92-f575-477a-82e8-ce3728425f5b")
+			(uuid "321db59e-b28e-4871-9819-8bd598ac3165")
 		)
 		(pin "1"
-			(uuid "5f9ab22c-e1c7-477e-880e-6d0069420d83")
+			(uuid "0c2aaf2f-d037-46de-8c6d-50647963f70e")
 		)
 		(instances
 			(project "led_controller"
 				(path "/33db064c-d5ae-416f-86c1-c095f962d498"
-					(reference "C6")
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 57.15 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49d3e352-8458-4bf8-b361-8663bf9c26a1")
+		(property "Reference" "SW3"
+			(at 54.61 120.6501 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Toggle switch"
+			(at 54.61 118.1101 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 57.15 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8da3627-9118-46e3-b0a6-474b286ee52f")
+		)
+		(pin "2"
+			(uuid "03055e7d-1c0d-4b41-b288-55eaa2458a80")
+		)
+		(instances
+			(project "led_controller"
+				(path "/33db064c-d5ae-416f-86c1-c095f962d498"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -1997,7 +2338,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 96.52 85.09 180)
+		(at 96.52 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2006,7 +2347,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ac51586-6b4f-4a21-afc3-c72c8614fe66")
 		(property "Reference" "D2"
-			(at 113.03 79.6446 0)
+			(at 113.03 88.8298 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2014,7 +2355,7 @@
 			)
 		)
 		(property "Value" "NeoPixels WS2812B"
-			(at 113.03 82.1846 0)
+			(at 113.03 91.3698 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2022,7 +2363,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 95.25 77.47 0)
+			(at 88.9 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2032,7 +2373,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 93.98 75.565 0)
+			(at 86.995 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2042,7 +2383,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 96.52 85.09 0)
+			(at 96.52 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2072,76 +2413,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 190.5 85.09 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5217bbaa-e466-4e74-889a-5e6f89c9d98d")
-		(property "Reference" "R1"
-			(at 190.5 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330Ω"
-			(at 190.5 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.754 84.074 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 190.5 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3770e38c-02f8-4e89-9810-63cb93071b8e")
-		)
-		(pin "2"
-			(uuid "d787f598-66bd-4683-8ae6-62be9658dacf")
-		)
-		(instances
-			(project ""
-				(path "/33db064c-d5ae-416f-86c1-c095f962d498"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:WS2812B")
-		(at 160.02 85.09 180)
+		(at 160.02 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2150,7 +2423,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b7aaedd-1e22-4669-ac75-08b7cdc7a29a")
 		(property "Reference" "D4"
-			(at 176.53 79.6446 0)
+			(at 176.53 88.8298 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2158,7 +2431,7 @@
 			)
 		)
 		(property "Value" "NeoPixels WS2812B"
-			(at 176.53 82.1846 0)
+			(at 176.53 91.3698 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2166,7 +2439,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 158.75 77.47 0)
+			(at 152.4 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2176,7 +2449,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 157.48 75.565 0)
+			(at 150.495 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2186,7 +2459,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 160.02 85.09 0)
+			(at 160.02 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2210,6 +2483,146 @@
 			(project "led_controller"
 				(path "/33db064c-d5ae-416f-86c1-c095f962d498"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 152.4 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6365dff5-48fb-4fe9-9037-03d825f089ef")
+		(property "Reference" "SW4"
+			(at 149.86 121.9201 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Toggle switch"
+			(at 149.86 119.3801 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 152.4 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c1ebb4f-211d-4d51-a393-39d38be2ac60")
+		)
+		(pin "2"
+			(uuid "a88a314e-c1c3-4dd0-a023-033ade3381d4")
+		)
+		(instances
+			(project "led_controller"
+				(path "/33db064c-d5ae-416f-86c1-c095f962d498"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 88.9 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f681aa7-3a39-4fe7-8907-c84beb36b85f")
+		(property "Reference" "C4"
+			(at 85.09 114.3001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0,1µF"
+			(at 85.09 111.7601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.9348 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 88.9 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d2019d10-57b8-48dc-bd6e-8862ab0bedc6")
+		)
+		(pin "1"
+			(uuid "3f610fef-00f9-4535-8080-b7fa3c7ae5d4")
+		)
+		(instances
+			(project "led_controller"
+				(path "/33db064c-d5ae-416f-86c1-c095f962d498"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -2371,17 +2784,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 64.77 72.39 0)
+		(lib_id "Device:R")
+		(at 96.52 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8b8f8e8f-b8cc-447f-bae1-ef27de9c3a80")
-		(property "Reference" "C2"
-			(at 68.58 71.1199 0)
+		(uuid "888f3b09-f251-406d-bc57-082ed5b20164")
+		(property "Reference" "R3"
+			(at 99.06 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2389,8 +2802,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0,1µF"
-			(at 68.58 73.6599 0)
+		(property "Value" "330Ω"
+			(at 99.06 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2399,7 +2812,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 65.7352 76.2 0)
+			(at 94.742 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2408,7 +2821,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 72.39 0)
+			(at 96.52 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2416,95 +2829,95 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 64.77 72.39 0)
+		(property "Description" "Resistor"
+			(at 96.52 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "6f659775-def5-4c29-a6dd-e41de8413ec1")
 		)
 		(pin "1"
-			(uuid "c0a95a61-99db-455b-8bff-7ca630f17343")
-		)
-		(instances
-			(project ""
-				(path "/33db064c-d5ae-416f-86c1-c095f962d498"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 128.27 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d4f26d4-1087-420f-a14e-c26881384d4b")
-		(property "Reference" "C5"
-			(at 132.08 71.1199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0,1µF"
-			(at 132.08 73.6599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.2352 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 128.27 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+			(uuid "43a80f84-065b-4d3b-924f-82ec0bc7cf58")
 		)
 		(pin "2"
-			(uuid "ba7d2f72-da33-481f-a56c-40008e140077")
-		)
-		(pin "1"
-			(uuid "a581a164-970e-46d2-bc17-34859ec8f3a2")
+			(uuid "caad9564-c351-480c-af04-3b4286af0b91")
 		)
 		(instances
 			(project "led_controller"
 				(path "/33db064c-d5ae-416f-86c1-c095f962d498"
-					(reference "C5")
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 88.9 120.65 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f8c4774-20c7-4301-bf11-a7f0a598ac1f")
+		(property "Reference" "SW2"
+			(at 86.36 121.9201 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Toggle switch"
+			(at 86.36 119.3801 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 88.9 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe8599b9-cf07-46fb-bfa7-28ba8c1dfd32")
+		)
+		(pin "2"
+			(uuid "ffeb17b6-98d9-4129-a47e-9a57706e6bae")
+		)
+		(instances
+			(project "led_controller"
+				(path "/33db064c-d5ae-416f-86c1-c095f962d498"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -2512,7 +2925,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 256.54 106.68 180)
+		(at 250.19 134.62 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2521,25 +2934,23 @@
 		(fields_autoplaced yes)
 		(uuid "a28784ad-5259-4a4a-9d8a-b1766d2a76a5")
 		(property "Reference" "C1"
-			(at 260.35 105.4099 0)
+			(at 250.19 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "1000µF"
-			(at 260.35 107.9499 0)
+			(at 250.19 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 255.5748 102.87 0)
+			(at 246.38 135.5852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2548,7 +2959,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 256.54 106.68 0)
+			(at 250.19 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2557,7 +2968,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 256.54 106.68 0)
+			(at 250.19 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2581,17 +2992,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 64.77 62.23 270)
+		(lib_id "Device:C")
+		(at 152.4 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ac8c0860-9b40-4c9b-baaa-97855c094003")
-		(property "Reference" "SW1"
-			(at 67.31 60.9599 90)
+		(uuid "a6457beb-76ca-4938-b1cf-d511228d73d5")
+		(property "Reference" "C6"
+			(at 148.59 114.3001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2599,8 +3010,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Toggle switch"
-			(at 67.31 63.4999 90)
+		(property "Value" "0,1µF"
+			(at 148.59 111.7601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2609,7 +3020,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 62.23 0)
+			(at 151.4348 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2618,7 +3029,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 62.23 0)
+			(at 152.4 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2626,42 +3037,42 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 64.77 62.23 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 152.4 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "afe28c67-1104-4c85-974b-4035767ab63d")
 		)
 		(pin "2"
-			(uuid "25d76d75-b17c-43ec-908c-43bf31bf713a")
+			(uuid "6df342b6-235e-40fa-a6b2-29e8d4fa19e5")
+		)
+		(pin "1"
+			(uuid "a403f5f2-09ee-46d3-8474-40bbfab41824")
 		)
 		(instances
-			(project ""
+			(project "led_controller"
 				(path "/33db064c-d5ae-416f-86c1-c095f962d498"
-					(reference "SW1")
+					(reference "C6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 96.52 62.23 270)
+		(lib_id "Device:R")
+		(at 160.02 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b2497cd1-2325-4674-9a24-4e25a97e1c1a")
-		(property "Reference" "SW2"
-			(at 99.06 60.9599 90)
+		(uuid "a65bc875-3ce4-44f8-86a5-d40849d9f928")
+		(property "Reference" "R1"
+			(at 162.56 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2669,8 +3080,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Toggle switch"
-			(at 99.06 63.4999 90)
+		(property "Value" "330Ω"
+			(at 162.56 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2679,7 +3090,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 62.23 0)
+			(at 158.242 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2688,7 +3099,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 62.23 0)
+			(at 160.02 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2696,8 +3107,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 96.52 62.23 0)
+		(property "Description" "Resistor"
+			(at 160.02 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2706,15 +3117,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a6fc60b5-02eb-41d1-b655-da741e698684")
+			(uuid "18741345-4a5f-4000-b21e-c504fa498bb8")
 		)
 		(pin "2"
-			(uuid "cfd71d59-7655-43b7-a422-87b295e2d4cd")
+			(uuid "3678ff6a-4dd6-4b7d-bd6d-4c90d3199695")
 		)
 		(instances
-			(project "led_controller"
+			(project ""
 				(path "/33db064c-d5ae-416f-86c1-c095f962d498"
-					(reference "SW2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -2722,7 +3133,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 64.77 85.09 180)
+		(at 64.77 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2731,7 +3142,7 @@
 		(fields_autoplaced yes)
 		(uuid "b60e9916-a012-4dbb-8f39-68a9e587232a")
 		(property "Reference" "D1"
-			(at 81.28 79.6446 0)
+			(at 81.28 88.8298 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2739,7 +3150,7 @@
 			)
 		)
 		(property "Value" "NeoPixels WS2812B"
-			(at 81.28 82.1846 0)
+			(at 81.28 91.3698 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2747,7 +3158,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 63.5 77.47 0)
+			(at 57.15 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2757,7 +3168,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 62.23 75.565 0)
+			(at 55.245 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2767,7 +3178,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 64.77 85.09 0)
+			(at 64.77 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2868,16 +3279,16 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 96.52 72.39 0)
+		(at 120.65 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d7e25726-5e29-4256-a247-f507c1581bcb")
-		(property "Reference" "C4"
-			(at 100.33 71.1199 0)
+		(uuid "ca027dfb-877f-4d2f-b430-abd9c618457f")
+		(property "Reference" "C2"
+			(at 116.84 114.3001 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2886,7 +3297,7 @@
 			)
 		)
 		(property "Value" "0,1µF"
-			(at 100.33 73.6599 0)
+			(at 116.84 111.7601 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2895,7 +3306,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.4852 76.2 0)
+			(at 119.6848 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2904,7 +3315,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 96.52 72.39 0)
+			(at 120.65 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2913,7 +3324,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 96.52 72.39 0)
+			(at 120.65 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2922,15 +3333,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "e0d83f1b-75f1-4a7c-8b09-36718d08ab30")
+			(uuid "25fb23db-f62d-4cc5-859e-9e0761c50deb")
 		)
 		(pin "1"
-			(uuid "594a98e9-bca8-4708-8a20-d466f81666de")
+			(uuid "5debad2b-1b48-4d7f-b747-c8d8b47df564")
 		)
 		(instances
 			(project "led_controller"
 				(path "/33db064c-d5ae-416f-86c1-c095f962d498"
-					(reference "C4")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -2938,7 +3349,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 256.54 119.38 0)
+		(at 241.3 134.62 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2947,25 +3358,23 @@
 		(fields_autoplaced yes)
 		(uuid "e1e0490b-9c96-4420-93b0-8e30555591f4")
 		(property "Reference" "BT1"
-			(at 260.35 116.2684 0)
+			(at 243.1415 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "+5V"
-			(at 260.35 118.8084 0)
+			(at 243.1415 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 117.856 90)
+			(at 242.824 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,7 +3383,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 256.54 117.856 90)
+			(at 242.824 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2983,7 +3392,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 256.54 119.38 0)
+			(at 241.3 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3008,7 +3417,7 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 128.27 85.09 180)
+		(at 128.27 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3017,7 +3426,7 @@
 		(fields_autoplaced yes)
 		(uuid "e868a277-02ca-4bae-81f7-a0ac0e3eda38")
 		(property "Reference" "D3"
-			(at 144.78 79.6446 0)
+			(at 144.78 88.8298 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3025,7 +3434,7 @@
 			)
 		)
 		(property "Value" "NeoPixels WS2812B"
-			(at 144.78 82.1846 0)
+			(at 144.78 91.3698 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3033,7 +3442,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 127 77.47 0)
+			(at 120.65 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3043,7 +3452,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 125.73 75.565 0)
+			(at 118.745 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3053,7 +3462,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 128.27 85.09 0)
+			(at 128.27 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3083,17 +3492,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 160.02 62.23 270)
+		(lib_id "Device:R")
+		(at 128.27 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f2913fe7-910a-4ac9-af63-a5b457bc6feb")
-		(property "Reference" "SW4"
-			(at 162.56 60.9599 90)
+		(uuid "f9d5a0cc-8ee7-4954-ac6f-7633ae717ca7")
+		(property "Reference" "R2"
+			(at 130.81 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3101,8 +3510,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Toggle switch"
-			(at 162.56 63.4999 90)
+		(property "Value" "330Ω"
+			(at 130.81 81.2799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3111,7 +3520,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 62.23 0)
+			(at 126.492 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3120,7 +3529,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 62.23 0)
+			(at 128.27 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3128,78 +3537,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 160.02 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a2979a1a-4fd0-4b73-8409-ba5fa0c75496")
-		)
-		(pin "2"
-			(uuid "e9c82b3d-eb2c-40f9-877c-5f57280dbc88")
-		)
-		(instances
-			(project "led_controller"
-				(path "/33db064c-d5ae-416f-86c1-c095f962d498"
-					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 128.27 62.23 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f3f0e587-79e0-4a90-92de-91a7c5b37fb1")
-		(property "Reference" "SW3"
-			(at 130.81 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Toggle switch"
-			(at 130.81 63.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 128.27 62.23 0)
+		(property "Description" "Resistor"
+			(at 128.27 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3208,15 +3547,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4afbe30f-1784-4bf3-a4d3-f4b3e99c6242")
+			(uuid "9d7cd110-3bc1-43bc-8488-82e30b4f47e7")
 		)
 		(pin "2"
-			(uuid "a834f13c-3750-446d-b6dd-e056ffca2a94")
+			(uuid "c88820a4-37ce-4629-b443-820b0ac1d673")
 		)
 		(instances
 			(project "led_controller"
 				(path "/33db064c-d5ae-416f-86c1-c095f962d498"
-					(reference "SW3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
