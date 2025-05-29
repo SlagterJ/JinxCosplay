@@ -4132,7 +4132,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "≤ 1KΩ"
+		(property "Value" "≤ 10KΩ"
 			(at 176.53 137.1599 0)
 			(effects
 				(font
