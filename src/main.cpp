@@ -1,29 +1,29 @@
 #include <Arduino.h>
 #include <Adafruit_Neopixel.h>
 
-constexpr uint8_t NUM_NEOPIXELS_BARREL =      40;
+#define NUM_NEOPIXELS_BARREL      16
 /**
  * Arduino data pin for the barrel neopixels
  */
-constexpr uint8_t PIN_NEOPIXELS_BARREL =      2;
+#define PIN_NEOPIXELS_BARREL      2
 /**
  * Arduino data pin for the clock neopixels
  */
-constexpr uint8_t PIN_NEOPIXELS_CLOCK =       3;
+#define PIN_NEOPIXELS_CLOCK       3
 /**
  * Arduino data pin for the horns neopixels
  */
-constexpr uint8_t PIN_NEOPIXELS_HORNS =       4;
+#define PIN_NEOPIXELS_HORNS       4
 /**
  * Arduino data pin for the jaw neopixels
  */
-constexpr uint8_t PIN_NEOPIXELS_JAW =         5;
+#define PIN_NEOPIXELS_JAW         5
 /**
  * Arduino data pin for the motor switch
  */
-constexpr uint8_t PIN_MOTOR_SWITCH =          13;
+#define PIN_MOTOR_SWITCH          13
 
-Adafruit_NeoPixel barrelStrip(NUM_NEOPIXELS_BARREL, PIN_NEOPIXELS_BARREL);
+Adafruit_NeoPixel barrelStrip(NUM_NEOPIXELS_BARREL, PIN_NEOPIXELS_BARREL, NEO_GRB + NEO_KHZ800);
 
 /**
  * Boolean to keep track if the motor switch was pressed the previous cycle used to prevent double inputs
@@ -34,7 +34,9 @@ bool wasMotorSwitchPressedPreviousCycle = false;
  * Setup function runs once on start
  */
 void setup() {
+  Serial.println("Begin!");
   barrelStrip.begin();
+  barrelStrip.setPixelColor(1, barrelStrip.Color(255, 0, 0));
   // clear the strip
   barrelStrip.show();
 }
@@ -43,6 +45,10 @@ void setup() {
  * Loop function runs for the remainder lifetime
  */
 void loop() {
+  /*
+  Serial.println("Clearing strip");
+  barrelStrip.clear();
+
   /**
    * if the motor switch is pressed this cycle
    */
@@ -52,10 +58,23 @@ void loop() {
   if (isMotorSwitchPressed && wasMotorSwitchPressedPreviousCycle == false) {
     wasMotorSwitchPressedPreviousCycle = true;
   }
-  */
 
-  for (int i = 0; i < NUM_NEOPIXELS_BARREL; i++) {
-    barrelStrip.setPixelColor(i, Adafruit_NeoPixel::Color(255, 0, 0));
-    delay(200);
+  Serial.println("Starting turning red loop");
+  for (int currentPixel = 0; currentPixel < NUM_NEOPIXELS_BARREL; currentPixel++) {
+    Serial.println("Setting pixel " + String(currentPixel) + " to red");
+    barrelStrip.setPixelColor(currentPixel, Adafruit_NeoPixel::Color(150, 0, 0));
+    barrelStrip.show();
+    delay(4000);
   }
+
+  Serial.println("Starting turning off loop");
+  for (int currentPixel = 0; currentPixel < NUM_NEOPIXELS_BARREL; currentPixel++) {
+    Serial.println("Setting pixel " + String(currentPixel) + " to off");
+    barrelStrip.setPixelColor(currentPixel, Adafruit_NeoPixel::Color(0, 0, 0));
+    barrelStrip.show();
+    delay(4000);
+    barrelStrip.setPixelColor(currentPixel, Adafruit_NeoPixel::Color(0, 0, 0));
+    barrelStrip.show();
+  }
+  */
 }
