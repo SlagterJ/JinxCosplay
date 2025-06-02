@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include <Adafruit_Neopixel.h>
 
-#define NUM_NEOPIXELS_BARREL      16
+#define NUM_NEOPIXELS_BARREL      4
 /**
  * Arduino data pin for the barrel neopixels
  */
@@ -23,7 +23,7 @@
  */
 #define PIN_MOTOR_SWITCH          13
 
-Adafruit_NeoPixel barrelStrip(NUM_NEOPIXELS_BARREL, PIN_NEOPIXELS_BARREL, NEO_GRB + NEO_KHZ800);
+Adafruit_NeoPixel barrelStrip(NUM_NEOPIXELS_BARREL, PIN_NEOPIXELS_BARREL);
 
 /**
  * Boolean to keep track if the motor switch was pressed the previous cycle used to prevent double inputs
@@ -36,7 +36,7 @@ bool wasMotorSwitchPressedPreviousCycle = false;
 void setup() {
   Serial.println("Begin!");
   barrelStrip.begin();
-  barrelStrip.setPixelColor(1, barrelStrip.Color(255, 0, 0));
+  barrelStrip.setPixelColor(2, barrelStrip.Color(0, 0, 255));
   // clear the strip
   barrelStrip.show();
 }
